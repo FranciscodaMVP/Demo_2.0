@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423603D91DF4383B001A6900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603D81DF4383B001A6900 /* AppDelegate.swift */; };
+		423603DB1DF4383B001A6900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603DA1DF4383B001A6900 /* ViewController.swift */; };
+		423603DE1DF4383B001A6900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423603DC1DF4383B001A6900 /* Main.storyboard */; };
+		423603E11DF4383B001A6900 /* Demo_Valdez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423603DF1DF4383B001A6900 /* Demo_Valdez.xcdatamodeld */; };
+		423603E31DF4383B001A6900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423603E21DF4383B001A6900 /* Assets.xcassets */; };
+		423603E61DF4383B001A6900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423603E41DF4383B001A6900 /* LaunchScreen.storyboard */; };
+		423603F11DF4383B001A6900 /* Demo_ValdezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603F01DF4383B001A6900 /* Demo_ValdezTests.swift */; };
+		423603FC1DF4383B001A6900 /* Demo_ValdezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603FB1DF4383B001A6900 /* Demo_ValdezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423603ED1DF4383B001A6900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423603CD1DF4383A001A6900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423603D41DF4383A001A6900;
+			remoteInfo = "Demo-Valdez";
+		};
+		423603F81DF4383B001A6900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423603CD1DF4383A001A6900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423603D41DF4383A001A6900;
+			remoteInfo = "Demo-Valdez";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423603D51DF4383B001A6900 /* Demo-Valdez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-Valdez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423603D81DF4383B001A6900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423603DA1DF4383B001A6900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		423603DD1DF4383B001A6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423603E01DF4383B001A6900 /* Demo_Valdez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo_Valdez.xcdatamodel; sourceTree = "<group>"; };
+		423603E21DF4383B001A6900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423603E51DF4383B001A6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423603E71DF4383B001A6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423603EC1DF4383B001A6900 /* Demo-ValdezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-ValdezTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423603F01DF4383B001A6900 /* Demo_ValdezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ValdezTests.swift; sourceTree = "<group>"; };
+		423603F21DF4383B001A6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423603F71DF4383B001A6900 /* Demo-ValdezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-ValdezUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423603FB1DF4383B001A6900 /* Demo_ValdezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ValdezUITests.swift; sourceTree = "<group>"; };
+		423603FD1DF4383B001A6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423603D21DF4383A001A6900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603E91DF4383B001A6900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603F41DF4383B001A6900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423603CC1DF4383A001A6900 = {
+			isa = PBXGroup;
+			children = (
+				423603D71DF4383B001A6900 /* Demo-Valdez */,
+				423603EF1DF4383B001A6900 /* Demo-ValdezTests */,
+				423603FA1DF4383B001A6900 /* Demo-ValdezUITests */,
+				423603D61DF4383B001A6900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423603D61DF4383B001A6900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423603D51DF4383B001A6900 /* Demo-Valdez.app */,
+				423603EC1DF4383B001A6900 /* Demo-ValdezTests.xctest */,
+				423603F71DF4383B001A6900 /* Demo-ValdezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423603D71DF4383B001A6900 /* Demo-Valdez */ = {
+			isa = PBXGroup;
+			children = (
+				423603D81DF4383B001A6900 /* AppDelegate.swift */,
+				423603DA1DF4383B001A6900 /* ViewController.swift */,
+				423603DC1DF4383B001A6900 /* Main.storyboard */,
+				423603E21DF4383B001A6900 /* Assets.xcassets */,
+				423603E41DF4383B001A6900 /* LaunchScreen.storyboard */,
+				423603E71DF4383B001A6900 /* Info.plist */,
+				423603DF1DF4383B001A6900 /* Demo_Valdez.xcdatamodeld */,
+			);
+			path = "Demo-Valdez";
+			sourceTree = "<group>";
+		};
+		423603EF1DF4383B001A6900 /* Demo-ValdezTests */ = {
+			isa = PBXGroup;
+			children = (
+				423603F01DF4383B001A6900 /* Demo_ValdezTests.swift */,
+				423603F21DF4383B001A6900 /* Info.plist */,
+			);
+			path = "Demo-ValdezTests";
+			sourceTree = "<group>";
+		};
+		423603FA1DF4383B001A6900 /* Demo-ValdezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423603FB1DF4383B001A6900 /* Demo_ValdezUITests.swift */,
+				423603FD1DF4383B001A6900 /* Info.plist */,
+			);
+			path = "Demo-ValdezUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423603D41DF4383A001A6900 /* Demo-Valdez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423604001DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-Valdez" */;
+			buildPhases = (
+				423603D11DF4383A001A6900 /* Sources */,
+				423603D21DF4383A001A6900 /* Frameworks */,
+				423603D31DF4383A001A6900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-Valdez";
+			productName = "Demo-Valdez";
+			productReference = 423603D51DF4383B001A6900 /* Demo-Valdez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423603EB1DF4383B001A6900 /* Demo-ValdezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423604031DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezTests" */;
+			buildPhases = (
+				423603E81DF4383B001A6900 /* Sources */,
+				423603E91DF4383B001A6900 /* Frameworks */,
+				423603EA1DF4383B001A6900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423603EE1DF4383B001A6900 /* PBXTargetDependency */,
+			);
+			name = "Demo-ValdezTests";
+			productName = "Demo-ValdezTests";
+			productReference = 423603EC1DF4383B001A6900 /* Demo-ValdezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423603F61DF4383B001A6900 /* Demo-ValdezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423604061DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezUITests" */;
+			buildPhases = (
+				423603F31DF4383B001A6900 /* Sources */,
+				423603F41DF4383B001A6900 /* Frameworks */,
+				423603F51DF4383B001A6900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423603F91DF4383B001A6900 /* PBXTargetDependency */,
+			);
+			name = "Demo-ValdezUITests";
+			productName = "Demo-ValdezUITests";
+			productReference = 423603F71DF4383B001A6900 /* Demo-ValdezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423603CD1DF4383A001A6900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = isc;
+				TargetAttributes = {
+					423603D41DF4383A001A6900 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 668NJ8WGAC;
+						ProvisioningStyle = Automatic;
+					};
+					423603EB1DF4383B001A6900 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 668NJ8WGAC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 423603D41DF4383A001A6900;
+					};
+					423603F61DF4383B001A6900 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 668NJ8WGAC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 423603D41DF4383A001A6900;
+					};
+				};
+			};
+			buildConfigurationList = 423603D01DF4383A001A6900 /* Build configuration list for PBXProject "Demo-Valdez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423603CC1DF4383A001A6900;
+			productRefGroup = 423603D61DF4383B001A6900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423603D41DF4383A001A6900 /* Demo-Valdez */,
+				423603EB1DF4383B001A6900 /* Demo-ValdezTests */,
+				423603F61DF4383B001A6900 /* Demo-ValdezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423603D31DF4383A001A6900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423603E61DF4383B001A6900 /* LaunchScreen.storyboard in Resources */,
+				423603E31DF4383B001A6900 /* Assets.xcassets in Resources */,
+				423603DE1DF4383B001A6900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603EA1DF4383B001A6900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603F51DF4383B001A6900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423603D11DF4383A001A6900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423603E11DF4383B001A6900 /* Demo_Valdez.xcdatamodeld in Sources */,
+				423603DB1DF4383B001A6900 /* ViewController.swift in Sources */,
+				423603D91DF4383B001A6900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603E81DF4383B001A6900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423603F11DF4383B001A6900 /* Demo_ValdezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423603F31DF4383B001A6900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423603FC1DF4383B001A6900 /* Demo_ValdezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423603EE1DF4383B001A6900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423603D41DF4383A001A6900 /* Demo-Valdez */;
+			targetProxy = 423603ED1DF4383B001A6900 /* PBXContainerItemProxy */;
+		};
+		423603F91DF4383B001A6900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423603D41DF4383A001A6900 /* Demo-Valdez */;
+			targetProxy = 423603F81DF4383B001A6900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423603DC1DF4383B001A6900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423603DD1DF4383B001A6900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423603E41DF4383B001A6900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423603E51DF4383B001A6900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423603FE1DF4383B001A6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423603FF1DF4383B001A6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423604011DF4383B001A6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-Valdez/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-Valdez";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		423604021DF4383B001A6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-Valdez/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-Valdez";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		423604041DF4383B001A6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-ValdezTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-ValdezTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-Valdez.app/Demo-Valdez";
+			};
+			name = Debug;
+		};
+		423604051DF4383B001A6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-ValdezTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-ValdezTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-Valdez.app/Demo-Valdez";
+			};
+			name = Release;
+		};
+		423604071DF4383B001A6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-ValdezUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-ValdezUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Demo-Valdez";
+			};
+			name = Debug;
+		};
+		423604081DF4383B001A6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 668NJ8WGAC;
+				INFOPLIST_FILE = "Demo-ValdezUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itt.Demo-ValdezUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Demo-Valdez";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423603D01DF4383A001A6900 /* Build configuration list for PBXProject "Demo-Valdez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423603FE1DF4383B001A6900 /* Debug */,
+				423603FF1DF4383B001A6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423604001DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-Valdez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423604011DF4383B001A6900 /* Debug */,
+				423604021DF4383B001A6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423604031DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423604041DF4383B001A6900 /* Debug */,
+				423604051DF4383B001A6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423604061DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423604071DF4383B001A6900 /* Debug */,
+				423604081DF4383B001A6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		423603DF1DF4383B001A6900 /* Demo_Valdez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				423603E01DF4383B001A6900 /* Demo_Valdez.xcdatamodel */,
+			);
+			currentVersion = 423603E01DF4383B001A6900 /* Demo_Valdez.xcdatamodel */;
+			path = Demo_Valdez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 423603CD1DF4383A001A6900 /* Project object */;
+}
