@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		423603D91DF4383B001A6900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603D81DF4383B001A6900 /* AppDelegate.swift */; };
 		423603DB1DF4383B001A6900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603DA1DF4383B001A6900 /* ViewController.swift */; };
-		423603DE1DF4383B001A6900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423603DC1DF4383B001A6900 /* Main.storyboard */; };
 		423603E11DF4383B001A6900 /* Demo_Valdez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423603DF1DF4383B001A6900 /* Demo_Valdez.xcdatamodeld */; };
-		423603E31DF4383B001A6900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423603E21DF4383B001A6900 /* Assets.xcassets */; };
-		423603E61DF4383B001A6900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423603E41DF4383B001A6900 /* LaunchScreen.storyboard */; };
 		423603F11DF4383B001A6900 /* Demo_ValdezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603F01DF4383B001A6900 /* Demo_ValdezTests.swift */; };
 		423603FC1DF4383B001A6900 /* Demo_ValdezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423603FB1DF4383B001A6900 /* Demo_ValdezUITests.swift */; };
+		4236040D1DF43A74001A6900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4236040B1DF43A74001A6900 /* Main.storyboard */; };
+		423604121DF43C77001A6900 /* Contactos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423604111DF43C77001A6900 /* Contactos.swift */; };
+		42C5154A1DF54F1000B9EEB3 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5153D1DF54E9100B9EEB3 /* SQLite.framework */; };
+		42C5154C1DF5505600B9EEB3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5154B1DF5505600B9EEB3 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +33,62 @@
 			remoteGlobalIDString = 423603D41DF4383A001A6900;
 			remoteInfo = "Demo-Valdez";
 		};
+		42C5153C1DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		42C5153E1DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		42C515401DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		42C515421DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		42C515441DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		42C515461DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		42C515481DF54E9100B9EEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		423603D51DF4383B001A6900 /* Demo-Valdez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-Valdez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423603D81DF4383B001A6900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423603DA1DF4383B001A6900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		423603DD1DF4383B001A6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		423603E01DF4383B001A6900 /* Demo_Valdez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo_Valdez.xcdatamodel; sourceTree = "<group>"; };
-		423603E21DF4383B001A6900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		423603E51DF4383B001A6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		423603E71DF4383B001A6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		423603EC1DF4383B001A6900 /* Demo-ValdezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-ValdezTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423603F01DF4383B001A6900 /* Demo_ValdezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ValdezTests.swift; sourceTree = "<group>"; };
@@ -49,6 +96,10 @@
 		423603F71DF4383B001A6900 /* Demo-ValdezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-ValdezUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423603FB1DF4383B001A6900 /* Demo_ValdezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ValdezUITests.swift; sourceTree = "<group>"; };
 		423603FD1DF4383B001A6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4236040C1DF43A74001A6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Downloads/SQLiteApp-master/SQLiteApp/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		423604111DF43C77001A6900 /* Contactos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contactos.swift; sourceTree = "<group>"; };
+		42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		42C5154B1DF5505600B9EEB3 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C5154A1DF54F1000B9EEB3 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +135,7 @@
 				423603EF1DF4383B001A6900 /* Demo-ValdezTests */,
 				423603FA1DF4383B001A6900 /* Demo-ValdezUITests */,
 				423603D61DF4383B001A6900 /* Products */,
+				42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +154,11 @@
 			children = (
 				423603D81DF4383B001A6900 /* AppDelegate.swift */,
 				423603DA1DF4383B001A6900 /* ViewController.swift */,
-				423603DC1DF4383B001A6900 /* Main.storyboard */,
-				423603E21DF4383B001A6900 /* Assets.xcassets */,
-				423603E41DF4383B001A6900 /* LaunchScreen.storyboard */,
+				4236040B1DF43A74001A6900 /* Main.storyboard */,
 				423603E71DF4383B001A6900 /* Info.plist */,
 				423603DF1DF4383B001A6900 /* Demo_Valdez.xcdatamodeld */,
+				423604111DF43C77001A6900 /* Contactos.swift */,
+				42C5154B1DF5505600B9EEB3 /* data.swift */,
 			);
 			path = "Demo-Valdez";
 			sourceTree = "<group>";
@@ -126,6 +179,20 @@
 				423603FD1DF4383B001A6900 /* Info.plist */,
 			);
 			path = "Demo-ValdezUITests";
+			sourceTree = "<group>";
+		};
+		42C515331DF54E9000B9EEB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C5153D1DF54E9100B9EEB3 /* SQLite.framework */,
+				42C5153F1DF54E9100B9EEB3 /* SQLiteTests iOS.xctest */,
+				42C515411DF54E9100B9EEB3 /* SQLite.framework */,
+				42C515431DF54E9100B9EEB3 /* SQLiteTests Mac.xctest */,
+				42C515451DF54E9100B9EEB3 /* SQLite.framework */,
+				42C515471DF54E9100B9EEB3 /* SQLiteTests tvOS.xctest */,
+				42C515491DF54E9100B9EEB3 /* SQLite.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +291,12 @@
 			mainGroup = 423603CC1DF4383A001A6900;
 			productRefGroup = 423603D61DF4383B001A6900 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42C515331DF54E9000B9EEB3 /* Products */;
+					ProjectRef = 42C515321DF54E9000B9EEB3 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				423603D41DF4383A001A6900 /* Demo-Valdez */,
@@ -233,14 +306,64 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		42C5153D1DF54E9100B9EEB3 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 42C5153C1DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C5153F1DF54E9100B9EEB3 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 42C5153E1DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C515411DF54E9100B9EEB3 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 42C515401DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C515431DF54E9100B9EEB3 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 42C515421DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C515451DF54E9100B9EEB3 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 42C515441DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C515471DF54E9100B9EEB3 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 42C515461DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42C515491DF54E9100B9EEB3 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 42C515481DF54E9100B9EEB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		423603D31DF4383A001A6900 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				423603E61DF4383B001A6900 /* LaunchScreen.storyboard in Resources */,
-				423603E31DF4383B001A6900 /* Assets.xcassets in Resources */,
-				423603DE1DF4383B001A6900 /* Main.storyboard in Resources */,
+				4236040D1DF43A74001A6900 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423604121DF43C77001A6900 /* Contactos.swift in Sources */,
 				423603E11DF4383B001A6900 /* Demo_Valdez.xcdatamodeld in Sources */,
 				423603DB1DF4383B001A6900 /* ViewController.swift in Sources */,
+				42C5154C1DF5505600B9EEB3 /* data.swift in Sources */,
 				423603D91DF4383B001A6900 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,20 +428,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		423603DC1DF4383B001A6900 /* Main.storyboard */ = {
+		4236040B1DF43A74001A6900 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				423603DD1DF4383B001A6900 /* Base */,
+				4236040C1DF43A74001A6900 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		423603E41DF4383B001A6900 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				423603E51DF4383B001A6900 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -518,6 +636,7 @@
 				423604021DF4383B001A6900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423604031DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +645,7 @@
 				423604051DF4383B001A6900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423604061DF4383B001A6900 /* Build configuration list for PBXNativeTarget "Demo-ValdezUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +654,7 @@
 				423604081DF4383B001A6900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
