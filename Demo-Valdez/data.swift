@@ -8,29 +8,40 @@
 
 import SQLite
 
-class dataDB {
+class datos {
     
-    private let contacts = Table("contacts")
+    static let instance = datos()
+    private var db: Connection?
+    
+    private let dbFileName = "infoDB"
+    
+    private let contacts = Table("datos")
     private let id = Expression<Int64>("id")
     private let name = Expression<String?>("name")
     private let phone = Expression<String>("phone")
     private let address = Expression<String>("address")
     
-    static let instance = dataDB()
-    private let db: Connection?
+    
+    
     
     private init() {
-        let path = NSSearchPathForDirectoriesInDomains(
-            .documentDirectory, .userDomainMask, true
-            ).first!
-        
-        do {
-            db = try Connection("\(path)/dataDB.db")
-            createTable()
-        } catch {
-            db = nil
-            print ("Unable to open database")
+        if !openExistingDatabase() {
+            let path = NSSearchPathForDirectoriesInDomains(
+                .documentDirectory, .userDomainMask, true
+                ).first!
+            
+            print("\(path)/\(dbFileName).db3")
+            
+            do {
+                
+                db = try Connection("\(path)/\(dbFileName).db3")
+            } catch {
+                db = nil
+                print("Unable to open database")
+            }
         }
+        
+        createTable()
     }
     
     func createTable() {
@@ -46,6 +57,21 @@ class dataDB {
         }
     }
     
+    func openExistingDatabase() -> Bool {
+        let dbPath = Bundle.main.path(forResource: dbFileName, ofType: "db3")!
+        print("Data base directory: \(dbPath)")
+        
+        do {
+            db = try Connection(dbPath)
+            print("conectado")
+            return true
+            
+        } catch {
+            db = nil
+            print("Unable to open preloaded database")
+            return false
+        }
+    }
     func addContact(cname: String, cphone: String, caddress: String) -> Int64? {
         do {
             let insert = contacts.insert(name <- cname, phone <- cphone, address <- caddress)

@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         contactsTableView.dataSource = self
         contactsTableView.delegate = self
         
-        contacts = dataDB.instance.getContacts()
+        contacts = datos.instance.getContacts()
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let phone = phoneTextField.text ?? ""
         let address = addressTextField.text ?? ""
         
-        if let id = dataDB.instance.addContact(cname: name, cphone: phone, caddress: address) {
+        if let id = datos.instance.addContact(cname: name, cphone: phone, caddress: address) {
             let contact = Contact(id: id, name: name, phone: phone, address: address)
             contacts.append(contact)
             //contactsTableView.insertRowsAtIndexPaths([NSIndexPath(forRow: contacts.count-1, inSection: 0)], withRowAnimation: .Fade)
@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 phone: phoneTextField.text ?? "",
                 address: addressTextField.text ?? "")
             
-            dataDB.instance.updateContact(cid: id, newContact: contact)
+            datos.instance.updateContact(cid: id, newContact: contact)
             
             contacts.remove(at: selectedContact!)
             contacts.insert(contact, at: selectedContact!)
@@ -70,7 +70,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBAction func deleteButtonClicked() {
         if selectedContact != nil {
-            dataDB.instance.deleteContact(cid: contacts[selectedContact!].id!)
+            datos.instance.deleteContact(cid: contacts[selectedContact!].id!)
             contacts.remove(at: selectedContact!)
             //contactsTableView.deleteRowsAtIndexPaths([NSIndexPath(forRow: selectedContact!, inSection: 0)], withRowAnimation: .Fade)
         } else {
