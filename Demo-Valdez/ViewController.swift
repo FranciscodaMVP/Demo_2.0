@@ -44,7 +44,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if let id = datos.instance.addContact(cname: name, cphone: phone, caddress: address) {
             let contact = Contact(id: id, name: name, phone: phone, address: address)
             contacts.append(contact)
-            //contactsTableView.insertRowsAtIndexPaths([NSIndexPath(forRow: contacts.count-1, inSection: 0)], withRowAnimation: .Fade)
+            print("Guardado")
+            contactsTableView.insertRows(at: [IndexPath(row: contacts.count-1, section: 0)], with: .fade)
+            contactsTableView.selectRow(at: IndexPath(row: contacts.count-1, section: 0), animated: true, scrollPosition: .none)
+            
+            nameTextField.text = ""
+            phoneTextField.text = ""
+            addressTextField.text = ""
         }
     }
     
